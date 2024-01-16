@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./todo.css" rel="stylesheet" type="text/css"/>
+    <title>Document</title>
+  </head>
+  <body>
+    <div id="first_line">
+        <form class="toDoForm" style="display: inline;">
+          <input type="text" placeholder="할일을 적어주세요 .." />
+        </form>
+
+        <form class="toDoNum" style="display: inline;">
+          <input type="text" placeholder="중요도 설정 1~3" />
+        </form>
+
+        <button class="toDoBtn" style="display: inline;">
+          추가하기
+        </button>
+
+    </div>
+  
+    <div id="second_line">
+      <input type="radio" name="sort" value="0" checked> 전체
+      <input type="radio" name="sort" value="1"> 1 
+      <input type="radio" name="sort" value="2" checked> 2
+      <input type="radio" name="sort" value="3"> 3 
+      <input type="radio" name="sort" value="4" checked> 완료
+    </div>
+   
+
+    <ul class="toDos"></ul>
+
+   
+    <script src="todo.js"></script>
+  </body>
+</html>
