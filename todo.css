@@ -9,3 +9,18 @@ input::placeholder {
 div {
   width: 200px; float: left;
 }
+ul{
+  width: auto;
+}
+li{
+  width: auto;
+}
+li #todolist {
+  text-align: center;
+  display:inline-block; width:100px;margin:10px; border: 1px solid black; 
+}
+
+li {
+  margin:10px;
+}
+
