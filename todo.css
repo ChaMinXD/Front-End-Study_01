@@ -1,9 +1,9 @@
 
 input::placeholder {
 
-  color: black;
+  color: rosybrown;
   font-style: italic;
-
+  
 };
 
 div {
@@ -17,13 +17,32 @@ li{
 }
 span {
   text-align: center;
-  display:inline-block; width:100px;margin:10px; border: 1px solid black; 
+  display:inline-block; width:100px; margin:10px; border: 2px solid rosybrown; 
 }
 .toDo_text{
   text-align: center;
-  display:inline-block; width:400px;margin:10px; border: 1px solid black; 
+  display:inline-block; width:400px;margin:10px; border: 2px solid rosybrown; 
 }
 li {
   margin:10px;
 }
+.todo-title {
+  padding: 2rem;
+  text-align: center;
+  color: rosybrown;
+  font-size: 5rem;
+}
+.todo-box {
+  background-color: white;
+  border: 1px solid #ddd;
+}
 
+.todo-input-box {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  height: 3rem;
+  border-bottom: 1px solid #ddd;
+  justify-content: flex-start;
+  align-items: center;
+}
