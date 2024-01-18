@@ -15,11 +15,14 @@ ul{
 li{
   width: auto;
 }
-li #todolist {
+span {
   text-align: center;
   display:inline-block; width:100px;margin:10px; border: 1px solid black; 
 }
-
+.toDo_text{
+  text-align: center;
+  display:inline-block; width:400px;margin:10px; border: 1px solid black; 
+}
 li {
   margin:10px;
 }
